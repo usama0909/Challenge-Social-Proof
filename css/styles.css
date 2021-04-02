@@ -1,0 +1,172 @@
+body{
+    background-color: #fff;
+    font-family: roboto, arial , sans-serif;
+    text-align: center;
+    padding: 0px auto;
+    background: #ccc url(../images/bg-pattern-top-desktop.svg) no-repeat top left, #ccc url(../images/bg-pattern-bottom-desktop.svg) no-repeat right bottom ;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #511F50;
+    line-height: 1;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #511F50;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 300;
+    color: #914D80;
+}
+
+p{
+    font-size: 15px;
+    color: #A195A2;
+}
+
+
+.container{
+    width: 85%;
+    margin: 0px auto;
+}
+
+.start{
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin: auto auto;
+}
+
+.ratings{
+    display: inline-block;
+    margin: 30px 0 0 0;
+
+}
+
+.rating-box{
+    background-color: #F7F2F8;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 3px 30px;
+    text-align: center;
+}
+
+.rating-box img{
+    margin: 12px 3px 0 3px;
+    float: left;
+}
+.rating-box h2{
+    display: inline-block; 
+    padding: 0px 20px;
+}
+
+.rating2{
+    margin-left: 20px;
+    margin-right: -20px;
+}
+
+.rating3{
+    margin-left: 40px;
+    margin-right: -40px;
+}
+
+.reviews{
+    display: block;
+    margin: 50px auto 50px auto;
+}
+
+.review-box{
+    background-color: #511F50;
+    border-radius: 10px;
+}
+
+.info{
+    width:80%;
+    margin: 20px auto 10px auto;
+}
+
+.info h2{
+    color: #fff;
+    padding-left: 70px;
+    text-align: left;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.info h3{
+    padding-left:70px;
+    text-align: left;
+}
+
+
+.info img{
+    border-radius: 50px;
+    width: 20%;
+    float: left;
+
+}
+
+
+
+.review1{
+    width: 30%;
+    float: left;
+    margin: 0 1.667%;
+}
+
+.review2{
+    width: 30%;
+    float: left;
+    margin: 20px 1.667% 0 1.667%;
+}
+
+.review3{
+    width: 30%;
+    float: right;
+    margin: 40px 1.667% 0 1.667%;
+}
+
+.text {
+    clear: left;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    width:80%;
+    margin: 30px auto 20px auto;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        width: 100%;
+        }  
+        
+        .start{
+            text-align: center;
+            width: 100%;
+        }
+
+        .rating-box{
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center;
+        }
+
+        .rating-box img{
+            margin: opx 3px 0 3px;
+            float: none;
+        }
+    
+        .review-box{
+            width: 100%;
+            margin:10px auto;
+        }
+  }
